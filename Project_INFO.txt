@@ -1,0 +1,46 @@
+﻿- create a folder to add our images
+- create a login from to allow the users to loin into the application
+
+
+- making the login from
+   - create 2 buttons : 1 to login; 2 to cancel
+   - create a checkbox to hide and show password chars 
+
+
+********** DataBase Tables ***********
+1 - USERS
+2 - STUDENTS
+3 - COURSES
+4 - SCORSES
+
+
+FORGEIN KEYS
+
+ALTER TABLE score
+ADD CONSTRAINT FK_std
+FOREIGN KEY (student_id) REFERENCES student(id)
+ON DELETE CASCADE
+
+
+ALTER TABLE score
+ADD CONSTRAINT FK_course
+FOREIGN KEY (course_id) REFERENCES course(id)
+ON DELETE CASCADE
+
+********** CLASSES ***********
+1 - My_DB
+2 - STUDENT
+3 - COURSE
+4 - SCORE
+
+********** LINKS ***********
+
+icon from => https://www.iconfinder.com/icons/285655/user_icon#size=512
+
+making background images using => https://www.canva.com
+
+colors ideas from => http://www.flatuicolorpicker.com/
+
+download XAMPP from => https://www.apachefriends.org/index.html
+
+download mysql connector from visual studio from => https://dev.mysql.com/downloads/windows/visualstudio/
